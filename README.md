@@ -3,6 +3,14 @@ This repository contains a Java implementation of the classic card game "War." T
 Features
 Features:
 
+**War Class:**
+
+The main game logic that simulates the War card game between two players.
+Players start with half the deck each, and in each round, they draw one card from their pile and compare the ranks.
+In case of a tie, both players draw three more cards from each pile and then compare one tie-breaker card.
+If a player does not have enough cards to resolve a tie, the game ends.
+The game continues until one player runs out of cards, and the winner is declared.
+
 **Deck Class:**
 
 Represents a standard deck of 52 playing cards.
@@ -16,14 +24,6 @@ Methods to split the deck into subdecks, merge subdecks, and display card inform
 Represents a pile of cards using an ArrayList.
 Supports adding cards, checking if the pile is empty, and popping cards from the top of the pile.
 Can accept a full deck and remove cards from the pile.
-
-**War Class:**
-
-The main game logic that simulates the War card game between two players.
-Players start with half the deck each, and in each round, they draw one card from their pile and compare the ranks.
-In case of a tie, both players draw three more cards from each pile and then compare one tie-breaker card.
-If a player does not have enough cards to resolve a tie, the game ends.
-The game continues until one player runs out of cards, and the winner is declared.
 
 **Game Logic:**
 
