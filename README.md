@@ -1,7 +1,7 @@
 # War Card Game
 This repository contains a Java implementation of the classic card game "War." The game simulates two players battling with a shuffled deck of cards to collect all cards. The implementation includes a solution for handling ties, where players draw additional cards until a winner is determined or the game ends.
-Features
-Features:
+
+**Features:**
 
 **War Class:**
 
